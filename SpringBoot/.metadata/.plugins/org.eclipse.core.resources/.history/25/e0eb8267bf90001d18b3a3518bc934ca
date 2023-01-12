@@ -1,0 +1,6 @@
+package com.cg.service;
+
+@Service
+public class EmployeeServiceImpl implements EmployeeService{
+
+}

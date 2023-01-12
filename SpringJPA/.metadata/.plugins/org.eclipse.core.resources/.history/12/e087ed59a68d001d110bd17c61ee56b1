@@ -1,0 +1,45 @@
+package com.cg.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.cg.dao.EmployeeDAO;
+import com.cg.entity.Employee;
+
+public class EmployeeServiceImpl implements EmployeeService{
+	
+	@Autowired
+	private EmployeeDAO repository;
+	
+	@Override
+	public void insert(Employee emp) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void update(Employee emp) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public Employee remove(Employee emp) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Employee find(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Employee> findAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

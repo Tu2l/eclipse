@@ -1,0 +1,652 @@
+2023-01-06 14:11:56,440 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-01-06 14:12:35,593 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-01-06 14:13:19,056 [Worker-8: Launching mavenrun-c8da6374-99df-443a-8dfd-c8526e72e453] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149 [606])
+2023-01-06 14:13:19,066 [Worker-8: Launching mavenrun-c8da6374-99df-443a-8dfd-c8526e72e453] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149
+2023-01-06 14:13:19,087 [Worker-8: Launching mavenrun-c8da6374-99df-443a-8dfd-c8526e72e453] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\aether-connector-okhttp-0.17.8.jar
+2023-01-06 14:13:19,088 [Worker-8: Launching mavenrun-c8da6374-99df-443a-8dfd-c8526e72e453] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\commons-cli-1.4.jar
+2023-01-06 14:13:19,089 [Worker-8: Launching mavenrun-c8da6374-99df-443a-8dfd-c8526e72e453] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\commons-io-2.6.jar
+2023-01-06 14:13:19,089 [Worker-8: Launching mavenrun-c8da6374-99df-443a-8dfd-c8526e72e453] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\commons-lang3-3.8.1.jar
+2023-01-06 14:13:19,089 [Worker-8: Launching mavenrun-c8da6374-99df-443a-8dfd-c8526e72e453] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\guice-4.2.2-no_aop.jar
+2023-01-06 14:13:19,091 [Worker-8: Launching mavenrun-c8da6374-99df-443a-8dfd-c8526e72e453] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\jansi-2.4.0.jar
+2023-01-06 14:13:19,091 [Worker-8: Launching mavenrun-c8da6374-99df-443a-8dfd-c8526e72e453] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-artifact-3.8.6.jar
+2023-01-06 14:13:19,092 [Worker-8: Launching mavenrun-c8da6374-99df-443a-8dfd-c8526e72e453] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-builder-support-3.8.6.jar
+2023-01-06 14:13:19,092 [Worker-8: Launching mavenrun-c8da6374-99df-443a-8dfd-c8526e72e453] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-compat-3.8.6.jar
+2023-01-06 14:13:19,093 [Worker-8: Launching mavenrun-c8da6374-99df-443a-8dfd-c8526e72e453] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-core-3.8.6.jar
+2023-01-06 14:13:19,093 [Worker-8: Launching mavenrun-c8da6374-99df-443a-8dfd-c8526e72e453] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-embedder-3.8.6.jar
+2023-01-06 14:13:19,094 [Worker-8: Launching mavenrun-c8da6374-99df-443a-8dfd-c8526e72e453] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-model-3.8.6.jar
+2023-01-06 14:13:19,095 [Worker-8: Launching mavenrun-c8da6374-99df-443a-8dfd-c8526e72e453] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-model-builder-3.8.6.jar
+2023-01-06 14:13:19,096 [Worker-8: Launching mavenrun-c8da6374-99df-443a-8dfd-c8526e72e453] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-plugin-api-3.8.6.jar
+2023-01-06 14:13:19,096 [Worker-8: Launching mavenrun-c8da6374-99df-443a-8dfd-c8526e72e453] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-repository-metadata-3.8.6.jar
+2023-01-06 14:13:19,097 [Worker-8: Launching mavenrun-c8da6374-99df-443a-8dfd-c8526e72e453] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-api-1.6.3.jar
+2023-01-06 14:13:19,098 [Worker-8: Launching mavenrun-c8da6374-99df-443a-8dfd-c8526e72e453] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-connector-basic-1.6.3.jar
+2023-01-06 14:13:19,099 [Worker-8: Launching mavenrun-c8da6374-99df-443a-8dfd-c8526e72e453] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-impl-1.6.3.jar
+2023-01-06 14:13:19,099 [Worker-8: Launching mavenrun-c8da6374-99df-443a-8dfd-c8526e72e453] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-provider-3.8.6.jar
+2023-01-06 14:13:19,100 [Worker-8: Launching mavenrun-c8da6374-99df-443a-8dfd-c8526e72e453] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-spi-1.6.3.jar
+2023-01-06 14:13:19,101 [Worker-8: Launching mavenrun-c8da6374-99df-443a-8dfd-c8526e72e453] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-transport-wagon-1.6.3.jar
+2023-01-06 14:13:19,102 [Worker-8: Launching mavenrun-c8da6374-99df-443a-8dfd-c8526e72e453] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-util-1.6.3.jar
+2023-01-06 14:13:19,102 [Worker-8: Launching mavenrun-c8da6374-99df-443a-8dfd-c8526e72e453] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-settings-3.8.6.jar
+2023-01-06 14:13:19,103 [Worker-8: Launching mavenrun-c8da6374-99df-443a-8dfd-c8526e72e453] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-settings-builder-3.8.6.jar
+2023-01-06 14:13:19,104 [Worker-8: Launching mavenrun-c8da6374-99df-443a-8dfd-c8526e72e453] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-shared-utils-3.3.4.jar
+2023-01-06 14:13:19,104 [Worker-8: Launching mavenrun-c8da6374-99df-443a-8dfd-c8526e72e453] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\okhttp-3.14.1.jar
+2023-01-06 14:13:19,105 [Worker-8: Launching mavenrun-c8da6374-99df-443a-8dfd-c8526e72e453] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\okio-1.17.3.jar
+2023-01-06 14:13:19,105 [Worker-8: Launching mavenrun-c8da6374-99df-443a-8dfd-c8526e72e453] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\org.eclipse.sisu.inject-0.3.5.jar
+2023-01-06 14:13:19,106 [Worker-8: Launching mavenrun-c8da6374-99df-443a-8dfd-c8526e72e453] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\org.eclipse.sisu.plexus-0.3.5.jar
+2023-01-06 14:13:19,107 [Worker-8: Launching mavenrun-c8da6374-99df-443a-8dfd-c8526e72e453] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-build-api-0.0.7.jar
+2023-01-06 14:13:19,107 [Worker-8: Launching mavenrun-c8da6374-99df-443a-8dfd-c8526e72e453] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-cipher-2.0.jar
+2023-01-06 14:13:19,108 [Worker-8: Launching mavenrun-c8da6374-99df-443a-8dfd-c8526e72e453] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-classworlds-2.6.0.jar
+2023-01-06 14:13:19,108 [Worker-8: Launching mavenrun-c8da6374-99df-443a-8dfd-c8526e72e453] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-component-annotations-2.1.0.jar
+2023-01-06 14:13:19,108 [Worker-8: Launching mavenrun-c8da6374-99df-443a-8dfd-c8526e72e453] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-interpolation-1.26.jar
+2023-01-06 14:13:19,109 [Worker-8: Launching mavenrun-c8da6374-99df-443a-8dfd-c8526e72e453] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-sec-dispatcher-2.0.jar
+2023-01-06 14:13:19,109 [Worker-8: Launching mavenrun-c8da6374-99df-443a-8dfd-c8526e72e453] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-utils-3.3.1.jar
+2023-01-06 14:13:19,109 [Worker-8: Launching mavenrun-c8da6374-99df-443a-8dfd-c8526e72e453] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\wagon-file-3.5.1.jar
+2023-01-06 14:13:19,110 [Worker-8: Launching mavenrun-c8da6374-99df-443a-8dfd-c8526e72e453] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\wagon-provider-api-3.5.1.jar
+2023-01-06 14:13:19,119 [Worker-8: Launching mavenrun-c8da6374-99df-443a-8dfd-c8526e72e453] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_30.1.0.v20221112-0806 [10])
+2023-01-06 14:13:19,122 [Worker-8: Launching mavenrun-c8da6374-99df-443a-8dfd-c8526e72e453] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\com.google.guava_30.1.0.v20221112-0806.jar
+2023-01-06 14:13:19,122 [Worker-8: Launching mavenrun-c8da6374-99df-443a-8dfd-c8526e72e453] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_1.7.36 [918])
+2023-01-06 14:13:19,125 [Worker-8: Launching mavenrun-c8da6374-99df-443a-8dfd-c8526e72e453] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\slf4j.api_1.7.36.jar
+2023-01-06 14:13:19,125 [Worker-8: Launching mavenrun-c8da6374-99df-443a-8dfd-c8526e72e453] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.inject_1.0.0.v20220405-0441 [32])
+2023-01-06 14:13:19,127 [Worker-8: Launching mavenrun-c8da6374-99df-443a-8dfd-c8526e72e453] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\javax.inject_1.0.0.v20220405-0441.jar
+2023-01-06 14:13:19,128 [Worker-8: Launching mavenrun-c8da6374-99df-443a-8dfd-c8526e72e453] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.annotation_1.3.5.v20221112-0806 [30])
+2023-01-06 14:13:19,130 [Worker-8: Launching mavenrun-c8da6374-99df-443a-8dfd-c8526e72e453] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\javax.annotation_1.3.5.v20221112-0806.jar
+2023-01-06 14:13:19,152 [Worker-8: Launching mavenrun-c8da6374-99df-443a-8dfd-c8526e72e453] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\tutroy\AppData\Local\Temp\m2e-archetypeGenerator6656678487127955162":
+2023-01-06 14:13:19,157 [Worker-8: Launching mavenrun-c8da6374-99df-443a-8dfd-c8526e72e453] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -DarchetypeGroupId=org.apache.maven.archetypes -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.1 -DgroupId=com.cg -DartifactId=Spring-JPA-CRUD -Dversion=0.0.1-SNAPSHOT -Dpackage=com.cg -DoutputDirectory=C:\Users\tutroy\Documents\SpringJPA -Dstyle.color=always -U archetype:generate
+2023-01-06 14:15:37,109 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-01-06 14:17:03,310 [Worker-13: Launching mavenrun-35ffd74a-9c49-42bd-8249-3980f510470d] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149 [606])
+2023-01-06 14:17:03,323 [Worker-13: Launching mavenrun-35ffd74a-9c49-42bd-8249-3980f510470d] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149
+2023-01-06 14:17:03,323 [Worker-13: Launching mavenrun-35ffd74a-9c49-42bd-8249-3980f510470d] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\aether-connector-okhttp-0.17.8.jar
+2023-01-06 14:17:03,324 [Worker-13: Launching mavenrun-35ffd74a-9c49-42bd-8249-3980f510470d] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\commons-cli-1.4.jar
+2023-01-06 14:17:03,324 [Worker-13: Launching mavenrun-35ffd74a-9c49-42bd-8249-3980f510470d] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\commons-io-2.6.jar
+2023-01-06 14:17:03,324 [Worker-13: Launching mavenrun-35ffd74a-9c49-42bd-8249-3980f510470d] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\commons-lang3-3.8.1.jar
+2023-01-06 14:17:03,325 [Worker-13: Launching mavenrun-35ffd74a-9c49-42bd-8249-3980f510470d] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\guice-4.2.2-no_aop.jar
+2023-01-06 14:17:03,326 [Worker-13: Launching mavenrun-35ffd74a-9c49-42bd-8249-3980f510470d] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\jansi-2.4.0.jar
+2023-01-06 14:17:03,326 [Worker-13: Launching mavenrun-35ffd74a-9c49-42bd-8249-3980f510470d] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-artifact-3.8.6.jar
+2023-01-06 14:17:03,327 [Worker-13: Launching mavenrun-35ffd74a-9c49-42bd-8249-3980f510470d] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-builder-support-3.8.6.jar
+2023-01-06 14:17:03,327 [Worker-13: Launching mavenrun-35ffd74a-9c49-42bd-8249-3980f510470d] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-compat-3.8.6.jar
+2023-01-06 14:17:03,327 [Worker-13: Launching mavenrun-35ffd74a-9c49-42bd-8249-3980f510470d] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-core-3.8.6.jar
+2023-01-06 14:17:03,327 [Worker-13: Launching mavenrun-35ffd74a-9c49-42bd-8249-3980f510470d] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-embedder-3.8.6.jar
+2023-01-06 14:17:03,329 [Worker-13: Launching mavenrun-35ffd74a-9c49-42bd-8249-3980f510470d] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-model-3.8.6.jar
+2023-01-06 14:17:03,329 [Worker-13: Launching mavenrun-35ffd74a-9c49-42bd-8249-3980f510470d] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-model-builder-3.8.6.jar
+2023-01-06 14:17:03,330 [Worker-13: Launching mavenrun-35ffd74a-9c49-42bd-8249-3980f510470d] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-plugin-api-3.8.6.jar
+2023-01-06 14:17:03,330 [Worker-13: Launching mavenrun-35ffd74a-9c49-42bd-8249-3980f510470d] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-repository-metadata-3.8.6.jar
+2023-01-06 14:17:03,330 [Worker-13: Launching mavenrun-35ffd74a-9c49-42bd-8249-3980f510470d] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-api-1.6.3.jar
+2023-01-06 14:17:03,331 [Worker-13: Launching mavenrun-35ffd74a-9c49-42bd-8249-3980f510470d] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-connector-basic-1.6.3.jar
+2023-01-06 14:17:03,331 [Worker-13: Launching mavenrun-35ffd74a-9c49-42bd-8249-3980f510470d] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-impl-1.6.3.jar
+2023-01-06 14:17:03,331 [Worker-13: Launching mavenrun-35ffd74a-9c49-42bd-8249-3980f510470d] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-provider-3.8.6.jar
+2023-01-06 14:17:03,331 [Worker-13: Launching mavenrun-35ffd74a-9c49-42bd-8249-3980f510470d] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-spi-1.6.3.jar
+2023-01-06 14:17:03,332 [Worker-13: Launching mavenrun-35ffd74a-9c49-42bd-8249-3980f510470d] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-transport-wagon-1.6.3.jar
+2023-01-06 14:17:03,332 [Worker-13: Launching mavenrun-35ffd74a-9c49-42bd-8249-3980f510470d] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-util-1.6.3.jar
+2023-01-06 14:17:03,332 [Worker-13: Launching mavenrun-35ffd74a-9c49-42bd-8249-3980f510470d] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-settings-3.8.6.jar
+2023-01-06 14:17:03,333 [Worker-13: Launching mavenrun-35ffd74a-9c49-42bd-8249-3980f510470d] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-settings-builder-3.8.6.jar
+2023-01-06 14:17:03,333 [Worker-13: Launching mavenrun-35ffd74a-9c49-42bd-8249-3980f510470d] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-shared-utils-3.3.4.jar
+2023-01-06 14:17:03,333 [Worker-13: Launching mavenrun-35ffd74a-9c49-42bd-8249-3980f510470d] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\okhttp-3.14.1.jar
+2023-01-06 14:17:03,333 [Worker-13: Launching mavenrun-35ffd74a-9c49-42bd-8249-3980f510470d] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\okio-1.17.3.jar
+2023-01-06 14:17:03,334 [Worker-13: Launching mavenrun-35ffd74a-9c49-42bd-8249-3980f510470d] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\org.eclipse.sisu.inject-0.3.5.jar
+2023-01-06 14:17:03,334 [Worker-13: Launching mavenrun-35ffd74a-9c49-42bd-8249-3980f510470d] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\org.eclipse.sisu.plexus-0.3.5.jar
+2023-01-06 14:17:03,334 [Worker-13: Launching mavenrun-35ffd74a-9c49-42bd-8249-3980f510470d] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-build-api-0.0.7.jar
+2023-01-06 14:17:03,335 [Worker-13: Launching mavenrun-35ffd74a-9c49-42bd-8249-3980f510470d] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-cipher-2.0.jar
+2023-01-06 14:17:03,335 [Worker-13: Launching mavenrun-35ffd74a-9c49-42bd-8249-3980f510470d] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-classworlds-2.6.0.jar
+2023-01-06 14:17:03,336 [Worker-13: Launching mavenrun-35ffd74a-9c49-42bd-8249-3980f510470d] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-component-annotations-2.1.0.jar
+2023-01-06 14:17:03,337 [Worker-13: Launching mavenrun-35ffd74a-9c49-42bd-8249-3980f510470d] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-interpolation-1.26.jar
+2023-01-06 14:17:03,337 [Worker-13: Launching mavenrun-35ffd74a-9c49-42bd-8249-3980f510470d] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-sec-dispatcher-2.0.jar
+2023-01-06 14:17:03,337 [Worker-13: Launching mavenrun-35ffd74a-9c49-42bd-8249-3980f510470d] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-utils-3.3.1.jar
+2023-01-06 14:17:03,337 [Worker-13: Launching mavenrun-35ffd74a-9c49-42bd-8249-3980f510470d] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\wagon-file-3.5.1.jar
+2023-01-06 14:17:03,338 [Worker-13: Launching mavenrun-35ffd74a-9c49-42bd-8249-3980f510470d] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\wagon-provider-api-3.5.1.jar
+2023-01-06 14:17:03,340 [Worker-13: Launching mavenrun-35ffd74a-9c49-42bd-8249-3980f510470d] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_30.1.0.v20221112-0806 [10])
+2023-01-06 14:17:03,343 [Worker-13: Launching mavenrun-35ffd74a-9c49-42bd-8249-3980f510470d] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\com.google.guava_30.1.0.v20221112-0806.jar
+2023-01-06 14:17:03,343 [Worker-13: Launching mavenrun-35ffd74a-9c49-42bd-8249-3980f510470d] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_1.7.36 [918])
+2023-01-06 14:17:03,345 [Worker-13: Launching mavenrun-35ffd74a-9c49-42bd-8249-3980f510470d] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\slf4j.api_1.7.36.jar
+2023-01-06 14:17:03,345 [Worker-13: Launching mavenrun-35ffd74a-9c49-42bd-8249-3980f510470d] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.inject_1.0.0.v20220405-0441 [32])
+2023-01-06 14:17:03,348 [Worker-13: Launching mavenrun-35ffd74a-9c49-42bd-8249-3980f510470d] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\javax.inject_1.0.0.v20220405-0441.jar
+2023-01-06 14:17:03,349 [Worker-13: Launching mavenrun-35ffd74a-9c49-42bd-8249-3980f510470d] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.annotation_1.3.5.v20221112-0806 [30])
+2023-01-06 14:17:03,352 [Worker-13: Launching mavenrun-35ffd74a-9c49-42bd-8249-3980f510470d] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\tutroy\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\javax.annotation_1.3.5.v20221112-0806.jar
+2023-01-06 14:17:03,368 [Worker-13: Launching mavenrun-35ffd74a-9c49-42bd-8249-3980f510470d] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\tutroy\AppData\Local\Temp\m2e-archetypeGenerator6475352527709944770":
+2023-01-06 14:17:03,373 [Worker-13: Launching mavenrun-35ffd74a-9c49-42bd-8249-3980f510470d] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -DarchetypeGroupId=org.apache.maven.archetypes -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DgroupId=com.cg -DartifactId=Spring-JPA-CRUD -Dversion=0.0.1-SNAPSHOT -Dpackage=com.cg -DoutputDirectory=C:\Users\tutroy\Documents\SpringJPA -Dstyle.color=always -U archetype:generate
+2023-01-06 14:17:38,306 [Worker-17: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\pom.xml
+2023-01-06 14:17:39,555 [Worker-17: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cg:Spring-JPA-CRUD:0.0.1-SNAPSHOT @ C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\pom.xml.
+2023-01-06 14:17:40,577 [Worker-17: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Spring-JPA-CRUD/src/main/java
+2023-01-06 14:17:40,587 [Worker-17: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Spring-JPA-CRUD/src/test/java
+2023-01-06 14:17:40,836 [Worker-17: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 2 sec
+2023-01-06 14:17:42,496 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:17:42,497 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 14:17:42,505 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:17:42,505 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 14:18:19,918 [Worker-3: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cg:Spring-JPA-CRUD:0.0.1-SNAPSHOT @ C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\pom.xml.
+2023-01-06 14:18:21,354 [Worker-3: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-orm/3.1.1.RELEASE/spring-orm-3.1.1.RELEASE.pom
+2023-01-06 14:18:21,738 [Worker-3: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-orm/3.1.1.RELEASE/spring-orm-3.1.1.RELEASE.pom
+2023-01-06 14:18:22,043 [Worker-3: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-beans/3.1.1.RELEASE/spring-beans-3.1.1.RELEASE.pom
+2023-01-06 14:18:22,363 [Worker-3: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-beans/3.1.1.RELEASE/spring-beans-3.1.1.RELEASE.pom
+2023-01-06 14:18:22,656 [Worker-3: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-core/3.1.1.RELEASE/spring-core-3.1.1.RELEASE.pom
+2023-01-06 14:18:22,957 [Worker-3: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-core/3.1.1.RELEASE/spring-core-3.1.1.RELEASE.pom
+2023-01-06 14:18:23,260 [Worker-3: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.pom
+2023-01-06 14:18:23,797 [Worker-3: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.pom
+2023-01-06 14:18:24,094 [Worker-3: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/5/commons-parent-5.pom
+2023-01-06 14:18:24,553 [Worker-3: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/5/commons-parent-5.pom
+2023-01-06 14:18:24,851 [Worker-3: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/3.1.1.RELEASE/spring-jdbc-3.1.1.RELEASE.pom
+2023-01-06 14:18:25,185 [Worker-3: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/3.1.1.RELEASE/spring-jdbc-3.1.1.RELEASE.pom
+2023-01-06 14:18:25,477 [Worker-3: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-tx/3.1.1.RELEASE/spring-tx-3.1.1.RELEASE.pom
+2023-01-06 14:18:25,795 [Worker-3: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-tx/3.1.1.RELEASE/spring-tx-3.1.1.RELEASE.pom
+2023-01-06 14:18:26,097 [Worker-3: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-aop/3.1.1.RELEASE/spring-aop-3.1.1.RELEASE.pom
+2023-01-06 14:18:26,414 [Worker-3: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-aop/3.1.1.RELEASE/spring-aop-3.1.1.RELEASE.pom
+2023-01-06 14:18:26,715 [Worker-3: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-context/3.1.1.RELEASE/spring-context-3.1.1.RELEASE.pom
+2023-01-06 14:18:27,153 [Worker-3: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-context/3.1.1.RELEASE/spring-context-3.1.1.RELEASE.pom
+2023-01-06 14:18:27,450 [Worker-3: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-expression/3.1.1.RELEASE/spring-expression-3.1.1.RELEASE.pom
+2023-01-06 14:18:27,754 [Worker-3: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-expression/3.1.1.RELEASE/spring-expression-3.1.1.RELEASE.pom
+2023-01-06 14:18:28,146 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/5.2.19.RELEASE/spring-jdbc-5.2.19.RELEASE.jar
+2023-01-06 14:18:28,494 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-tx/5.2.19.RELEASE/spring-tx-5.2.19.RELEASE.jar
+2023-01-06 14:18:28,494 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-orm/3.1.1.RELEASE/spring-orm-3.1.1.RELEASE.jar
+2023-01-06 14:18:30,679 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-tx/5.2.19.RELEASE/spring-tx-5.2.19.RELEASE.jar
+2023-01-06 14:18:30,806 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-orm/3.1.1.RELEASE/spring-orm-3.1.1.RELEASE.jar
+2023-01-06 14:18:30,833 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/5.2.19.RELEASE/spring-jdbc-5.2.19.RELEASE.jar
+2023-01-06 14:18:31,265 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:18:31,266 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 14:18:31,272 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:18:31,272 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 14:18:33,085 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:18:33,087 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 14:18:33,093 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:18:33,093 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 14:18:34,289 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:18:34,290 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 14:18:34,295 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:18:34,296 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 14:18:34,787 [Worker-22: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/5.2.19.RELEASE/spring-jdbc-5.2.19.RELEASE-sources.jar
+2023-01-06 14:18:36,336 [Worker-22: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/5.2.19.RELEASE/spring-jdbc-5.2.19.RELEASE-sources.jar
+2023-01-06 14:18:36,344 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-jdbc:5.2.19.RELEASE
+2023-01-06 14:18:37,371 [Worker-22: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-tx/5.2.19.RELEASE/spring-tx-5.2.19.RELEASE-sources.jar
+2023-01-06 14:18:38,735 [Worker-22: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-tx/5.2.19.RELEASE/spring-tx-5.2.19.RELEASE-sources.jar
+2023-01-06 14:18:38,745 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-tx:5.2.19.RELEASE
+2023-01-06 14:18:39,714 [Worker-22: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-orm/3.1.1.RELEASE/spring-orm-3.1.1.RELEASE-sources.jar
+2023-01-06 14:18:40,960 [Worker-22: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-orm/3.1.1.RELEASE/spring-orm-3.1.1.RELEASE-sources.jar
+2023-01-06 14:18:40,973 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-orm:3.1.1.RELEASE
+2023-01-06 14:18:41,826 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:18:41,826 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 14:18:41,838 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:18:41,913 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 14:19:30,598 [Worker-1: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cg:Spring-JPA-CRUD:0.0.1-SNAPSHOT @ C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\pom.xml.
+2023-01-06 14:19:32,194 [Worker-1: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/postgresql/postgresql/42.5.1/postgresql-42.5.1.pom
+2023-01-06 14:19:32,926 [Worker-1: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/postgresql/postgresql/42.5.1/postgresql-42.5.1.pom
+2023-01-06 14:19:33,332 [Worker-1: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/postgresql/postgresql/42.5.1/postgresql-42.5.1.jar
+2023-01-06 14:19:36,341 [Worker-1: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/postgresql/postgresql/42.5.1/postgresql-42.5.1.jar
+2023-01-06 14:19:36,624 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:19:36,626 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 14:19:36,630 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:19:36,630 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 14:19:38,656 [Worker-17: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cg:Spring-JPA-CRUD:0.0.1-SNAPSHOT @ C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\pom.xml.
+2023-01-06 14:19:38,884 [Worker-8: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/postgresql/postgresql/42.5.1/postgresql-42.5.1-sources.jar
+2023-01-06 14:19:39,274 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:19:39,275 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 14:19:39,279 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:19:39,280 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 14:19:41,009 [Worker-8: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/postgresql/postgresql/42.5.1/postgresql-42.5.1-sources.jar
+2023-01-06 14:19:41,015 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.postgresql:postgresql:42.5.1
+2023-01-06 14:19:41,346 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:19:41,346 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 14:19:41,351 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:19:41,352 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 14:20:36,519 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:20:36,519 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 14:20:36,527 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:20:36,528 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 14:20:54,622 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:20:54,623 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 14:20:54,628 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:20:54,628 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 14:21:48,382 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:21:48,383 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 14:21:48,391 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:21:48,392 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 14:22:57,676 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:22:57,676 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 14:22:57,680 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:22:57,681 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 14:23:15,994 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:23:15,995 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 14:23:16,000 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:23:16,000 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 14:23:24,330 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:23:24,330 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 14:23:24,334 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:23:24,335 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 14:23:29,330 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:23:29,330 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 14:23:29,336 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:23:29,336 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 14:23:30,416 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:23:30,416 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 14:23:30,424 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:23:30,424 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 14:25:58,403 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:25:58,404 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 14:25:58,410 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:25:58,410 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 14:26:38,716 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:26:38,717 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 14:26:38,721 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:26:38,721 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 14:26:50,494 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:26:50,495 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 14:26:50,497 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:26:50,497 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 14:27:25,126 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:27:25,126 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 14:27:25,130 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:27:25,130 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 14:28:15,071 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:28:15,073 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 14:28:15,079 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:28:15,079 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 14:28:28,950 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:28:28,951 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 14:28:28,956 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:28:28,957 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 14:28:58,479 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:28:58,479 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 14:28:58,483 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:28:58,484 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 14:29:04,593 [Worker-22: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:29:04,595 [Worker-22: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 14:29:04,599 [Worker-22: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:29:04,600 [Worker-22: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 14:29:25,298 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:29:25,298 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 14:29:25,305 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:29:25,305 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 14:29:39,106 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:29:39,107 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 14:29:39,110 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:29:39,111 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 14:29:55,448 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:29:55,449 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 14:29:55,452 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:29:55,452 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 14:30:03,804 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:30:03,804 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 14:30:03,809 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:30:03,809 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 14:30:12,251 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:30:12,251 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 14:30:12,256 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:30:12,256 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 14:30:37,983 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:30:37,983 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 14:30:37,987 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:30:37,988 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 14:32:52,006 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:32:52,007 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 14:32:52,010 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:32:52,011 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 14:33:04,382 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:33:04,382 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 14:33:04,388 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:33:04,389 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 14:33:16,334 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:33:16,335 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 14:33:16,339 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:33:16,340 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 14:33:17,395 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:33:17,396 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 14:33:17,404 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:33:17,406 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 14:34:00,974 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:34:00,974 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 14:34:00,979 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:34:00,980 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 14:34:32,779 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:34:32,780 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 14:34:32,787 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:34:32,787 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 14:34:51,972 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:34:51,973 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 14:34:51,979 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:34:51,980 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 14:35:08,855 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:35:08,855 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 14:35:08,860 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:35:08,860 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 14:35:50,347 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:35:50,348 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 14:35:50,352 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:35:50,353 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 14:36:32,870 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:36:32,870 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 14:36:32,875 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:36:32,876 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 14:36:39,086 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:36:39,086 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 14:36:39,091 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:36:39,092 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 14:36:56,360 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:36:56,362 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 14:36:56,365 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:36:56,365 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 14:37:57,030 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:37:57,031 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 14:37:57,034 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:37:57,034 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 14:38:19,684 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:38:19,685 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 14:38:19,688 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:38:19,689 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 14:39:02,454 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:39:02,455 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 14:39:02,458 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:39:02,458 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 14:39:48,185 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:39:48,187 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 14:39:48,188 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:39:48,189 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 14:42:06,633 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:42:06,633 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 14:42:06,635 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:42:06,635 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 14:42:53,819 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:42:53,819 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 14:42:53,822 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:42:53,823 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 14:44:04,990 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:44:04,990 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 14:44:04,992 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:44:04,992 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 14:44:08,456 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:44:08,456 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 14:44:08,457 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:44:08,457 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 14:44:21,753 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:44:21,753 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 14:44:21,755 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:44:21,755 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 14:45:59,086 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:45:59,087 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 14:45:59,089 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:45:59,090 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 14:46:12,810 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:46:12,811 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 14:46:12,812 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:46:12,812 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 14:46:30,969 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:46:30,969 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 14:46:30,971 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:46:30,971 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 14:46:47,103 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:46:47,103 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 14:46:47,104 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:46:47,105 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 14:47:15,497 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:47:15,497 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 14:47:15,499 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:47:15,500 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 14:47:25,299 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:47:25,299 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 14:47:25,300 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:47:25,301 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 14:47:33,019 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:47:33,019 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 14:47:33,021 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:47:33,021 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 14:48:14,585 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:48:14,585 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 14:48:14,587 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:48:14,587 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 14:48:43,940 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:48:43,940 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 14:48:43,942 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:48:43,942 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 14:48:56,700 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:48:56,700 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 14:48:56,702 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:48:56,702 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 14:50:42,386 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:50:42,387 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 14:50:42,390 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:50:42,391 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 14:51:52,102 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:51:52,103 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 14:51:52,106 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:51:52,106 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 14:57:26,370 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:57:26,371 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 14:57:26,373 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:57:26,374 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 14:57:40,510 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:57:40,510 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 14:57:40,511 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:57:40,511 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 14:57:42,592 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:57:42,592 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 14:57:42,594 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:57:42,594 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 14:58:51,349 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:58:51,350 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 14:58:51,353 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:58:51,354 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 14:59:42,042 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:59:42,043 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 14:59:42,046 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 14:59:42,046 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 15:00:09,056 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:00:09,056 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 15:00:09,058 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:00:09,059 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 15:01:17,640 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:01:17,640 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 15:01:17,642 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:01:17,643 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 15:01:26,154 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:01:26,155 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 15:01:26,158 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:01:26,158 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 15:01:30,090 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:01:30,090 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 15:01:30,092 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:01:30,092 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 15:01:37,063 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:01:37,063 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 15:01:37,066 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:01:37,066 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 15:02:04,050 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:02:04,050 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 15:02:04,052 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:02:04,053 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 15:02:18,315 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:02:18,315 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 15:02:18,317 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:02:18,318 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 15:02:39,662 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:02:39,662 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 15:02:39,666 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:02:39,666 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 15:03:02,058 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:03:02,058 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 15:03:02,059 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:03:02,060 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 15:04:59,352 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:04:59,352 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 15:04:59,354 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:04:59,354 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 15:06:05,435 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:06:05,435 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 15:06:05,437 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:06:05,437 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 15:06:17,618 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:06:17,618 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 15:06:17,620 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:06:17,620 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 15:09:25,320 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:09:25,320 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 15:09:25,322 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:09:25,322 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 15:09:27,363 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:09:27,363 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 15:09:27,365 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:09:27,365 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 15:09:36,530 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:09:36,531 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 15:09:36,532 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:09:36,532 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 15:11:09,522 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:11:09,523 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 15:11:09,525 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:11:09,526 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 15:11:54,047 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:11:54,047 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 15:11:54,049 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:11:54,050 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 15:12:55,110 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:12:55,111 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 15:12:55,112 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:12:55,112 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 15:13:02,875 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:13:02,875 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 15:13:02,877 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:13:02,877 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 15:13:10,233 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:13:10,233 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 15:13:10,235 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:13:10,235 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 15:14:23,676 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:14:23,676 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 15:14:23,678 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:14:23,679 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 15:15:09,997 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:15:09,998 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 15:15:10,000 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:15:10,000 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 15:15:16,137 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:15:16,137 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 15:15:16,139 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:15:16,139 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 15:15:34,242 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:15:34,242 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 15:15:34,244 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:15:34,244 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 15:16:13,495 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:16:13,496 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 15:16:13,497 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:16:13,497 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 15:17:42,560 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:17:42,561 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 15:17:42,563 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:17:42,563 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 15:17:50,819 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:17:50,820 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 15:17:50,821 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:17:50,821 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 15:18:17,195 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:18:17,195 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 15:18:17,197 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:18:17,198 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 15:18:40,617 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:18:40,617 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 15:18:40,620 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:18:40,621 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 15:19:39,240 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:19:39,240 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 15:19:39,242 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:19:39,242 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 15:22:01,690 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:22:01,690 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 15:22:01,692 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:22:01,692 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 15:24:06,833 [Worker-52: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:24:06,834 [Worker-52: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 15:24:06,836 [Worker-52: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:24:06,836 [Worker-52: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 15:24:56,557 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:24:56,557 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 15:24:56,558 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:24:56,559 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 15:25:13,698 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:25:13,698 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 15:25:13,703 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:25:13,704 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 15:26:02,010 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:26:02,010 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 15:26:02,012 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:26:02,013 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 15:26:26,113 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:26:26,113 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 15:26:26,116 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:26:26,117 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 15:27:49,129 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:27:49,129 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 15:27:49,131 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:27:49,131 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 15:28:30,231 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:28:30,231 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 15:28:30,233 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:28:30,233 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 15:29:01,343 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:29:01,343 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 15:29:01,347 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:29:01,347 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 15:29:05,820 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:29:05,820 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 15:29:05,822 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:29:05,822 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 15:29:48,158 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:29:48,158 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 15:29:48,159 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:29:48,160 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 15:31:47,651 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:31:47,652 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 15:31:47,654 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:31:47,654 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 15:33:06,083 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:33:06,084 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 15:33:06,087 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:33:06,087 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 15:34:47,621 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:34:47,622 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 15:34:47,623 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:34:47,623 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 15:35:14,125 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:35:14,125 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 15:35:14,127 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:35:14,128 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 15:35:19,613 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:35:19,613 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 15:35:19,615 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:35:19,615 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 15:35:39,914 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:35:39,914 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 15:35:39,916 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:35:39,916 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 15:36:04,149 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:36:04,149 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 15:36:04,152 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:36:04,152 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 15:37:06,021 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:37:06,021 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 15:37:06,024 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:37:06,024 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 15:43:49,721 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:43:49,722 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 15:43:49,725 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:43:49,725 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 15:44:24,389 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:44:24,390 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 15:44:24,391 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:44:24,392 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 15:46:06,843 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:46:06,844 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 15:46:06,845 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:46:06,845 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 15:46:43,596 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:46:43,597 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 15:46:43,598 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:46:43,598 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 15:47:41,829 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:47:41,829 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 15:47:41,831 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:47:41,831 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 15:55:06,025 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:55:06,026 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 15:55:06,028 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 15:55:06,029 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 16:07:20,549 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 16:07:20,549 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\main\resources
+2023-01-06 16:07:20,551 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-06 16:07:20,551 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\tutroy\Documents\SpringJPA\Spring-JPA-CRUD\src\test\resources
+2023-01-06 17:38:55,439 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-01-07 09:07:39,334 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-01-12 15:30:24,188 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.

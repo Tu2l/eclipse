@@ -1,0 +1,25 @@
+package com.cg.entity;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.persistence.CascadeType;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.JoinTable;
+import javax.persistence.ManyToMany;
+
+@Entity
+public class Book {
+	
+	@Id
+	private String isbn;
+	
+	private String title;
+	private double price;
+	
+	@ManyToMany(cascade = CascadeType.ALL)
+	@JoinTable (name = "book_author_table", joinColumns = @JoinColumn(name = "book"), inverseJoinColumns = @JoinColumn(name = "author"))
+	private List<Author> authors = new ArrayList<>();
+}

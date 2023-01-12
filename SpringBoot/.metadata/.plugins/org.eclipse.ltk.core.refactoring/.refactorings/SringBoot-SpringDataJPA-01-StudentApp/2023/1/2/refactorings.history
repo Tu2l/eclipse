@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;s&apos; in &apos;com.cg.service.StudentServiceImpl.deleteStudent(...)&apos; to &apos;student&apos;&#x0D;&#x0A;- Original project: &apos;SringBoot-SpringDataJPA-01-StudentApp&apos;&#x0D;&#x0A;- Original element: &apos;com.cg.service.StudentServiceImpl.deleteStudent(int).s&apos;&#x0D;&#x0A;- Renamed element: &apos;s&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;s&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.cg.service{StudentServiceImpl.java[StudentServiceImpl~deleteStudent~I@s!1372!1403!1380!1380!QStudent;!0!false" name="student" references="true" stamp="1673256598097" version="1.0"/>
+</session>

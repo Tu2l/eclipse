@@ -1,0 +1,19 @@
+
+k	java:S106P"9Replace this use of System.out or System.err by a logger.(ú‰ã·8şç¿á×0HØRMAJORZ
+CODE_SMELL
+l
+java:S1128"4Remove this unused import 'java.util.LinkedHashSet'.(à€¼úÿÿÿÿ8ÍÔá×0HÆRMINORZ
+CODE_SMELL
+i	java:S106L"9Replace this use of System.out or System.err by a logger.(›¤ÌØıÿÿÿÿH¾RMAJORZ
+CODE_SMELL
+b
+java:S1128"*Remove this unused import 'java.util.Set'.(ö²„¤şÿÿÿÿ8ÍÔá×0HÈRMINORZ
+CODE_SMELL
+f
+java:S1128"3Remove this unused import 'com.cg.entity.Employee'.(šÜñ“8ÍÔá×0HÌRMINORZ
+CODE_SMELL
+n	java:S125O"<This block of commented-out lines of code should be removed.(°İå8¢ÅÉá×0HŠRMAJORZ
+CODE_SMELL
+g
+java:S1128"5Remove this unused import 'com.cg.entity.Department'.(™ªä8ÍÔá×0HÊRMINORZ
+CODE_SMELL

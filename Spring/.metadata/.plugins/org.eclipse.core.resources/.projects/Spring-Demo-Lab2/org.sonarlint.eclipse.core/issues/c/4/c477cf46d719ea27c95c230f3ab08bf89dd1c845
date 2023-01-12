@@ -1,0 +1,8 @@
+
+i	java:S106"9Replace this use of System.out or System.err by a logger.(пхЏіыяяяяHЭRMAJORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(р…штюяяяяHЬRMAJORZ
+CODE_SMELL
+h
+java:S1128"0Remove this unused import 'com.cg.app.Employee'.(ьвщМыяяяя8ЊЩвЌШ0HеRMINORZ
+CODE_SMELL

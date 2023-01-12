@@ -1,0 +1,21 @@
+
+e
+java:S1128	"2Remove this unused import 'com.cg.entity.Account'.(¬Ãáò8ÀÙ×Û×0H©	RMINORZ
+CODE_SMELL
+i	java:S1061"9Replace this use of System.out or System.err by a logger.(›¤ÌØýÿÿÿÿHýRMAJORZ
+CODE_SMELL
+k
+java:S1128"3Remove this unused import 'com.cg.entity.Passport'.(—‘€Ìýÿÿÿÿ8ÀÙ×Û×0H¯	RMINORZ
+CODE_SMELL
+b
+java:S3740"/Provide the parametrized type for this generic.(øÁ´ù8»ŠÍÛ×0H“	RMAJORZ
+CODE_SMELL
+i	java:S1064"9Replace this use of System.out or System.err by a logger.(ƒ³ÕÚøÿÿÿÿHüRMAJORZ
+CODE_SMELL
+e
+java:S1128
+"2Remove this unused import 'com.cg.entity.Citizen'.(œáã¹8ÀÙ×Û×0H«	RMINORZ
+CODE_SMELL
+f
+java:S1128"3Remove this unused import 'com.cg.entity.Employee'.(šÜñ“8ÀÙ×Û×0H­	RMINORZ
+CODE_SMELL

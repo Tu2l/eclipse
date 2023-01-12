@@ -1,0 +1,7 @@
+
+j
+java:S1128	"7Remove this unused import 'javax.persistence.OneToOne'.(Ø½ïâ8°‰Èß×0H“RMINORZ
+CODE_SMELL
+m
+java:S1128":Remove this unused import 'javax.persistence.CascadeType'.( ì¤Ê8°‰Èß×0H‘RMINORZ
+CODE_SMELL

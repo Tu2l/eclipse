@@ -1,0 +1,47 @@
+
+ 
+java:S1192H"jDefine a constant instead of duplicating this literal "-----------------------------------------" 9 times.(‰âíİ8­Ğıä×0H¬RCRITICALZ
+CODE_SMELL
+k	java:S106^"9Replace this use of System.out or System.err by a logger.(‰âíİ8Š§å×0H¶RMAJORZ
+CODE_SMELL
+b
+java:S1128"*Remove this unused import 'java.util.Set'.(ö²„¤şÿÿÿÿ8×Ä‰å×0H·RMINORZ
+CODE_SMELL
+p	java:S106]"9Replace this use of System.out or System.err by a logger.(—òÁİùÿÿÿÿ8“‹şä×0H¹RMAJORZ
+CODE_SMELL
+p	java:S106O"9Replace this use of System.out or System.err by a logger.(“äıÙşÿÿÿÿ8•¨ÿä×0HºRMAJORZ
+CODE_SMELL
+k	java:S106P"9Replace this use of System.out or System.err by a logger.(‰âíİ8Ş£ûä×0H»RMAJORZ
+CODE_SMELL
+k	java:S106J"9Replace this use of System.out or System.err by a logger.(‰âíİ8•¨ÿä×0H¼RMAJORZ
+CODE_SMELL
+k	java:S106R"9Replace this use of System.out or System.err by a logger.(‰âíİ8ÛØôä×0H½RMAJORZ
+CODE_SMELL
+k	java:S106K"9Replace this use of System.out or System.err by a logger.(Ûû†8š£ã×0H¾RMAJORZ
+CODE_SMELL
+p	java:S106W"9Replace this use of System.out or System.err by a logger.(²Øäÿûÿÿÿÿ8ò—úä×0H¿RMAJORZ
+CODE_SMELL
+g
+java:S1128"4Remove this unused import 'javax.persistence.Query'.(¢ğö8º¤å×0HÀRMINORZ
+CODE_SMELL
+k	java:S106I"9Replace this use of System.out or System.err by a logger.(—óİ8Æ’ùä×0HÂRMAJORZ
+CODE_SMELL
+p	java:S106["9Replace this use of System.out or System.err by a logger.(úßú±øÿÿÿÿ8­Ğıä×0HÃRMAJORZ
+CODE_SMELL
+k	java:S106L"9Replace this use of System.out or System.err by a logger.(‰âíİ8•¨ÿä×0HÄRMAJORZ
+CODE_SMELL
+k	java:S106\"9Replace this use of System.out or System.err by a logger.(‰âíİ8­Ğıä×0HÅRMAJORZ
+CODE_SMELL
+k	java:S106X"9Replace this use of System.out or System.err by a logger.(‰âíİ8ÛØôä×0HÆRMAJORZ
+CODE_SMELL
+p	java:S106U"9Replace this use of System.out or System.err by a logger.(ûèóËÿÿÿÿÿ8­Ğıä×0HÇRMAJORZ
+CODE_SMELL
+k	java:S106H"9Replace this use of System.out or System.err by a logger.(‰âíİ8ÛØôä×0HÈRMAJORZ
+CODE_SMELL
+l
+java:S1128"4Remove this unused import 'java.util.LinkedHashSet'.(à€¼úÿÿÿÿ8×Ä‰å×0HÉRMINORZ
+CODE_SMELL
+k	java:S106V"9Replace this use of System.out or System.err by a logger.(‰âíİ8­Ğıä×0HËRMAJORZ
+CODE_SMELL
+p	java:S106Q"9Replace this use of System.out or System.err by a logger.(ë§Å‰ùÿÿÿÿ8²…øä×0HÌRMAJORZ
+CODE_SMELL

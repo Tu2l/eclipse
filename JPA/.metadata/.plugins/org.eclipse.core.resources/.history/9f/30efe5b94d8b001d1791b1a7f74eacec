@@ -1,0 +1,31 @@
+package com.cg.service;
+
+import com.cg.entity.Employee;
+
+public class EmployeeServiceImpl implements EmployeeService {
+
+	@Override
+	public Employee add(Employee emp) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Employee delete(Employee emp) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Employee find(int id)throws NoSuchEmployeeException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Employee update(Employee emp) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

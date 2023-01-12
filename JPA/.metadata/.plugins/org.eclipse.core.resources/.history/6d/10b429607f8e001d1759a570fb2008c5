@@ -1,0 +1,52 @@
+package com.cg;
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Persistence;
+
+import com.cg.entity.Author;
+
+/**
+ * Hello world!
+ *
+ */
+public class App {
+	public static void main(String[] args) {
+		System.out.println("JPA!");
+		
+		EntityManagerFactory emf = Persistence.createEntityManagerFactory("JPA-PU");
+		EntityManager em = emf.createEntityManager();
+		
+		em.getTransaction().begin();
+		Author author1 = new Author("ABC","Tutul","Deb","Roy","9854851059"); 
+		Author author2 = new Author("EFG","Rohit","","Sharma","9854851059");
+		Author author3 = new Author("XYZ","A","B","C","9854851059");
+		Author author4 = new Author("PQL","Z","Y","Z","9854851059");
+		
+		System.out.println("Student added");
+		//find(class,pkey)
+		Author a1 = em.find(Author.class, "ABC");
+		System.out.println(a1.toString());
+		
+		//merge(object)
+		
+		em.getTransaction().begin();
+		s1 = em.find(Student.class, 100);
+		s1.setName("Student5");
+		em.merge(s1);
+		em.getTransaction().commit();
+		
+		System.out.println("Updated");
+		//remove(object)
+		em.getTransaction().begin();
+		s1 = em.find(Student.class, 104);
+		em.remove(s1);
+		em.getTransaction().commit();
+		System.out.println("Deleted");
+		
+		
+		em.close();
+	}
+	
+	
+}

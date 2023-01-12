@@ -1,0 +1,45 @@
+package com.cg.app;
+
+
+import java.util.List;
+
+import javax.persistence.EntityManager;
+import javax.persistence.Query;
+
+import com.cg.dao.JPAUtil;
+import com.cg.entity.Employee;
+import com.cg.service.EmployeeService;
+import com.cg.service.EmployeeServiceImpl;
+
+/**
+ * Hello world!
+ *
+ */
+public class App2 {
+	public static void main(String[] args) {
+		EmployeeService eService = new EmployeeServiceImpl();
+
+		// create
+		Employee emp1 = new Employee(101, "E1", 30000);
+		eService.add(emp1);
+
+		Employee emp2 = new Employee(121, "E2", 50000);
+		eService.add(emp2);
+
+		Employee emp3 = new Employee(124, "E34", 23000);
+		eService.add(emp3);
+
+		Employee emp4 = new Employee(1243, "E43", 42000);
+		eService.add(emp4);
+		
+		empListByQuery();
+
+	}
+
+	static void empListByQuery() {
+		EntityManager em = JPAUtil.getEM();
+		Query query = em.createQuery("SELECT e.empid from Employee e");
+		List empList = query.getResultList();
+		empList.forEach(System.out::println);
+	}
+}

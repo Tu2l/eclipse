@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+	<bean id="sbu" class="com.cg.app.SBU">
+		<property name="sbuId" value="124" />
+		<property name="sbuName" value="Software Engineering" />
+		<property name="sbuHead" value="James" />
+		<property name="empList">
+			<list>
+				<ref bean="employee"/>
+				<ref bean="employee1"/>
+			</list>
+		</property>
+	</bean>
+
+	<bean id="employee" class="com.cg.app.Employee">
+		<property name="empId" value="123" />
+		<property name="name" value="Tutul" />
+		<property name="salary" value="28000" />
+	</bean>
+	
+	<bean id="employee1" class="com.cg.app.Employee">
+		<property name="empId" value="124" />
+		<property name="name" value="Rohit" />
+		<property name="salary" value="28000" />
+	</bean>
+</beans>

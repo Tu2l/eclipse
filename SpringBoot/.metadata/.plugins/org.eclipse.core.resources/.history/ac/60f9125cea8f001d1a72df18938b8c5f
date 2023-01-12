@@ -1,0 +1,3 @@
+spring.datasource.url=="jdbc:postgresql://localhost:5432/jpa"
+spring.datasource.username="postgres"
+spring.datasource.password="root"

@@ -1,0 +1,31 @@
+package com.cg.entity;
+
+import javax.persistence.CascadeType;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.OneToOne;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "emp_map1")
+public class Employee {
+
+	@Id
+	@Column(name = "e_id")
+	private int empid;
+
+	@Column(name = "e_name")
+	private String name;
+
+	@Column(name = "e_dept")
+	private String dept;
+
+	@Column(name = "e_salary")
+	private double salary;
+
+
+	public Employee() {
+	}
+
+}

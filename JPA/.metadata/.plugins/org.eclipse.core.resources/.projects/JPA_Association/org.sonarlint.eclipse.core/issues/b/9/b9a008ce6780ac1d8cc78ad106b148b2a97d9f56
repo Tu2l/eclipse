@@ -1,0 +1,11 @@
+
+p	java:S106)"9Replace this use of System.out or System.err by a logger.(ªŠ¬¿ıÿÿÿÿ8²Ç„Ú×0HŞRMAJORZ
+CODE_SMELL
+e
+java:S1128"2Remove this unused import 'com.cg.entity.Account'.(¬Ãáò8ÍÙúÙ×0HÆRMINORZ
+CODE_SMELL
+i	java:S106&"9Replace this use of System.out or System.err by a logger.(›¤ÌØıÿÿÿÿH°RMAJORZ
+CODE_SMELL
+f
+java:S1128	"3Remove this unused import 'com.cg.entity.Employee'.(šÜñ“8ÍÙúÙ×0HÈRMINORZ
+CODE_SMELL

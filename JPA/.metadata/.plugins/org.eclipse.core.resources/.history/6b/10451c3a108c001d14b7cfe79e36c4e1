@@ -1,0 +1,41 @@
+package com.cg.app;
+
+import java.util.LinkedHashSet;
+import java.util.Set;
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Persistence;
+
+import com.cg.entity.Department;
+import com.cg.entity.Employee;
+import com.cg.entity.Product;
+
+/**
+ * Hello world!
+ *
+ */
+public class ManyToManyBi {
+	public static void main(String[] args) {
+		EntityManagerFactory emf = Persistence.createEntityManagerFactory("JPA-PU");
+		EntityManager em = emf.createEntityManager();
+		
+		em.getTransaction().begin();
+	
+		Product p1 = new Product();
+		
+		em.persist(department);
+		em.getTransaction().commit();
+		
+		System.out.print("Added");
+		
+		
+		Department findDept = em.find(Department.class, 123);
+		findDept.getEmpList().forEach(System.out::println);
+		
+		em.close();
+		emf.close();
+	
+	}
+
+}

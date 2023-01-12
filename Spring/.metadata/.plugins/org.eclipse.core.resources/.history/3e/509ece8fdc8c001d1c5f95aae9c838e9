@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+	<bean id="student" class="com.cg.app.Student">
+		<property name="roll" value="123"/>
+		<property name="name" value="Mark"/>
+		<property name="marks" value="100"/>
+	</bean>
+	
+	<bean id="course" class="com.cg.app.Course">
+		<property name="courseName" value="MCA"/>
+		<property name="fees" value="25000"/>
+	</bean>
+</beans>

@@ -1,0 +1,8 @@
+package com.cg.app;
+
+public class Account {
+	private long accountNo;
+	private String accountType;
+	
+	
+}

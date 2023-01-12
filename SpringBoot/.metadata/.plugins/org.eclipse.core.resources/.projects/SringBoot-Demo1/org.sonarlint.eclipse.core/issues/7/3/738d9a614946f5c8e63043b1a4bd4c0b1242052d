@@ -1,0 +1,15 @@
+
+’
+java:S1128"[Remove this unused import 'org.springframework.boot.autoconfigure.EnableAutoConfiguration'.(æèþÞøÿÿÿÿ8Ù¿‘ÕØ0H&RMINORZ
+CODE_SMELL
+‡
+java:S1128"URemove this unused import 'org.springframework.boot.autoconfigure.AutoConfiguration'.(èôØ¹8ùú„ÕØ0HRMINORZ
+CODE_SMELL
+ˆ
+java:S1128"QRemove this unused import 'org.springframework.context.annotation.ComponentScan'.(æëòÒûÿÿÿÿ8Ù¿‘ÕØ0H(RMINORZ
+CODE_SMELL
+ˆ
+java:S1128"QRemove this unused import 'org.springframework.context.annotation.Configuration'.(¬²Úäþÿÿÿÿ8Ù¿‘ÕØ0H*RMINORZ
+CODE_SMELL
+j	java:S106"9Replace this use of System.out or System.err by a logger.(ºÿ„ð8²™äÕØ0H4RMAJORZ
+CODE_SMELL

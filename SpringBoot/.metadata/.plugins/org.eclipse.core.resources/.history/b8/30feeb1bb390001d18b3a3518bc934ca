@@ -1,0 +1,18 @@
+package com.cg.dao;
+
+import java.util.List;
+
+import org.springframework.data.jdbc.repository.query.Query;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+import org.springframework.web.bind.annotation.RequestParam;
+
+import com.cg.entity.Student;
+
+@Repository
+public interface StudenRepository extends JpaRepository<Student, Integer>{
+	
+	@Query("SELECT s FROM Student s WHERE s.marks =:marks")
+	List<Student> findStudentByMarks(@RequestParam("marks") float marks);
+
+}

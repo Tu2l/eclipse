@@ -1,0 +1,9 @@
+package com.cg.dao;
+
+import com.cg.entity.Employee;
+
+public interface EmployeeDAO {
+	void insert(Employee emp);
+	
+	Employee remove(Employee emp);
+}

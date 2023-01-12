@@ -1,0 +1,42 @@
+package com.cg.app;
+
+import java.util.ArrayList;
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Persistence;
+
+import com.cg.entity.Account;
+import com.cg.entity.Citizen;
+import com.cg.entity.EmailAddress;
+import com.cg.entity.Employee;
+import com.cg.entity.Passport;
+import com.cg.entity.Person;
+
+/**
+ * Hello world!
+ *
+ */
+public class App3 {
+	public static void main(String[] args) {
+		EntityManagerFactory emf = Persistence.createEntityManagerFactory("JPA-PU");
+		EntityManager em = emf.createEntityManager();
+		
+		em.getTransaction().begin();
+		Person person = new Person();
+		person.setId(123);
+		person.setName("Nyanko");
+		
+		ArrayList<EmailAddress> emails = new ArrayList<>();
+		
+		
+		em.getTransaction().commit();
+		
+		System.out.println("Added");
+		
+		Person findPerson = em.find(P);
+		System.out.println(findPerson.toString());
+	
+	}
+
+}

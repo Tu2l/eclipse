@@ -1,0 +1,10 @@
+package com.cg.main;
+
+public class Airtel implements Sim{
+	
+	@Override
+	public void calling() {
+		
+	}
+
+}

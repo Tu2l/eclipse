@@ -1,0 +1,72 @@
+package com.cg.app;
+
+import java.util.ArrayList;
+import java.util.LinkedHashSet;
+import java.util.List;
+import java.util.Set;
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Persistence;
+
+import com.cg.entity.Department;
+import com.cg.entity.Employee;
+import com.cg.entity.Order;
+import com.cg.entity.Product;
+
+/**
+ * Hello world!
+ *
+ */
+public class ManyToManyBi {
+	public static void main(String[] args) {
+		EntityManagerFactory emf = Persistence.createEntityManagerFactory("JPA-PU");
+		EntityManager em = emf.createEntityManager();
+		
+		em.getTransaction().begin();
+	
+		Product p1 = new Product();
+		p1.setPid(101);
+		p1.setName("P1");
+		
+
+		Product p2 = new Product();
+		p2.setPid(102);
+		p2.setName("P2");
+		
+
+		Product p3 = new Product();
+		p3.setPid(103);
+		p3.setName("P3");
+		
+		
+		Order order1 = new Order();
+		order1.setId(12);
+		order1.setName("order1");
+		
+		Order order2 = new Order();
+		order1.setId(24);
+		order1.setName("order2");
+		
+		List<Order>orderList1 = new ArrayList<>();
+		orderList1.add(order1);
+		orderList1.add(order2);
+		
+		
+		
+		
+		em.persist(department);
+		em.getTransaction().commit();
+		
+		System.out.print("Added");
+		
+		
+		Department findDept = em.find(Department.class, 123);
+		findDept.getEmpList().forEach(System.out::println);
+		
+		em.close();
+		emf.close();
+	
+	}
+
+}

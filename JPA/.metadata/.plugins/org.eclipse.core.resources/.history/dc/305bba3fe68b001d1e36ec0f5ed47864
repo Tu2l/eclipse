@@ -1,0 +1,87 @@
+package com.cg.app;
+
+import java.util.List;
+
+import javax.persistence.EntityManager;
+import javax.persistence.Query;
+
+import com.cg.dao.JPAUtil;
+import com.cg.entity.Employee;
+import com.cg.service.EmployeeService;
+import com.cg.service.EmployeeServiceImpl;
+
+/**
+ * Hello world!
+ *
+ */
+public class App2 {
+	public static void main(String[] args) {
+		EmployeeService eService = new EmployeeServiceImpl();
+
+		// create
+		Employee emp1 = new Employee(101, "E1", "IT", 30000);
+		eService.add(emp1);
+
+		Employee emp2 = new Employee(121, "E2", "Accounts", 50000);
+		eService.add(emp2);
+
+		Employee emp3 = new Employee(124, "E34", "L&D", 23000);
+		eService.add(emp3);
+
+		Employee emp4 = new Employee(1243, "E43", "R&D", 42000);
+		eService.add(emp4);
+
+		empListByQuery();
+		nameListByQuery();
+		deptListByQuery();
+		empCountByQuery();
+		empMaxSalByQuery();
+		
+		findEmpListByDept("IT");
+	}
+	
+	static void findEmpListByDept(String dept) {
+		EntityManager em = JPAUtil.getEM();
+		Query query = em.createQuery("SELECT e from Employee e where e.dept =:dept");
+		query.setParameter("dept", dept);
+		List<Employee> empList = query.getResultList();
+		empList.forEach(System.out::println);
+	}
+	
+	static void empMaxSalByQuery() {
+		EntityManager em = JPAUtil.getEM();
+		Query query = em.createQuery("SELECT max(e.salary) from Employee e");
+		double max = (double)query.getSingleResult();
+		System.out.println("max: "+max);
+		
+	}
+	
+	static void empCountByQuery() {
+		EntityManager em = JPAUtil.getEM();
+		Query query = em.createQuery("SELECT count(e) from Employee e");
+		long count = (long) query.getSingleResult();
+		System.out.println("count: "+count);
+		
+	}
+
+	static void empListByQuery() {
+		EntityManager em = JPAUtil.getEM();
+		Query query = em.createQuery("SELECT e from Employee e");
+		List<Employee> empList = query.getResultList();
+		empList.forEach(System.out::println);
+	}
+
+	static void nameListByQuery() {
+		EntityManager em = JPAUtil.getEM();
+		Query query = em.createQuery("SELECT e.name from Employee e");
+		List<String> empList = query.getResultList();
+		empList.forEach(System.out::println);
+	}
+	
+	static void deptListByQuery() {
+		EntityManager em = JPAUtil.getEM();
+		Query query = em.createQuery("SELECT e.dept from Employee e");
+		List<String> empList = query.getResultList();
+		empList.forEach(System.out::println);
+	}
+}

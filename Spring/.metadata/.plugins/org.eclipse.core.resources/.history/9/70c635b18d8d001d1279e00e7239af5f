@@ -1,0 +1,24 @@
+package com.cg.config;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+import com.cg.entity.Author;
+import com.cg.entity.Book;
+
+@Configuration
+public class Config {
+	
+	@Bean
+	public Book getBook() {
+		Book book = new Book(getAuthor(), "isbn","2023");
+		return book;
+	}
+	
+	
+	public Author getAuthor() {
+		Author author = new Author("Name","address");
+		return author;
+	}
+	
+}

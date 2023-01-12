@@ -1,0 +1,59 @@
+package com.cg.entity;
+
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
+
+public class Book {
+	private Author auhtor;
+	private String isbn;
+	private String year;
+
+	public Book() {
+	}
+
+	public Book(Author auhtor, String isbn, String year) {
+		super();
+		this.auhtor = auhtor;
+		this.isbn = isbn;
+		this.year = year;
+	}
+
+	public Author getAuhtor() {
+		return auhtor;
+	}
+
+	public void setAuhtor(Author auhtor) {
+		this.auhtor = auhtor;
+	}
+
+	public String getIsbn() {
+		return isbn;
+	}
+
+	public void setIsbn(String isbn) {
+		this.isbn = isbn;
+	}
+
+	public String getYear() {
+		return year;
+	}
+
+	public void setYear(String year) {
+		this.year = year;
+	}
+
+	@Override
+	public String toString() {
+		return "Book [auhtor=" + auhtor + ", isbn=" + isbn + ", year=" + year + "]";
+	}
+	
+	@PostConstruct
+	public void customPostInit() {
+		System.out.println("CustomPostInit: invoked");
+	}
+	
+	@PreDestroy
+	public void customPreDestroy() {
+		System.out.println("CustomPreDestroy(): invoked");
+	}
+}

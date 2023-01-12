@@ -1,0 +1,17 @@
+package com.cg.dao;
+
+import com.cg.entity.Employee;
+
+import antlr.collections.List;
+
+public interface EmployeeDAO {
+	void insert(Employee emp);
+	
+	void update(Employee emp);
+
+	Employee remove(Employee emp);
+	
+	Employee find(int id);
+	
+	List<Employee> findAll();
+}

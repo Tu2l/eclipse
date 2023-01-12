@@ -1,0 +1,11 @@
+package com.cg.springmain;
+
+import com.cg.main.Airtel;
+import com.cg.main.Sim;
+
+public class MobileApp {
+	public static void main(String[] args) {
+		Sim s1 = new Airtel();
+		
+	}
+}

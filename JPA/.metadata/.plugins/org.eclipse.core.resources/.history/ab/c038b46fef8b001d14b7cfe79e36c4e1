@@ -1,0 +1,20 @@
+package com.cg.entity;
+
+import javax.persistence.CascadeType;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.OneToOne;
+
+@Entity
+public class Passport {
+	
+	@Id
+	private String pNo;
+	private String pType;
+	
+	@OneToOne(mappedBy = "passport", cascade = CascadeType.ALL)
+	private Citizen citizen;
+	
+	
+
+}

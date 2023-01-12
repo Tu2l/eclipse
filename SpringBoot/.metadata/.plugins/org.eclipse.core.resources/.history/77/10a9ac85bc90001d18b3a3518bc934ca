@@ -1,0 +1,55 @@
+package com.cg.entity;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.persistence.CascadeType;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.OneToMany;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "department_springboot")
+public class Department {
+	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
+	private int deptId;
+	private String name;
+
+	@OneToMany(mappedBy = "", cascade = CascadeType.ALL)
+	private List<Employee> empList = new ArrayList<>();
+
+	public Department() {
+	}
+
+	public Department(int deptId, String name) {
+		super();
+		this.deptId = deptId;
+		this.name = name;
+	}
+
+	public int getDeptId() {
+		return deptId;
+	}
+
+	public void setDeptId(int deptId) {
+		this.deptId = deptId;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	@Override
+	public String toString() {
+		return "Department [deptId=" + deptId + ", name=" + name + "]";
+	}
+
+}

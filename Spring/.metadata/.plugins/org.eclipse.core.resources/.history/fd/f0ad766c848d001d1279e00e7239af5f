@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-2.5.xsd"
+context:xmlns="http://www.springframework.org/schema/context">
+
+	<context:annotation-config></context:annotation-config>
+	
+	<bean id="customer" class="com.cg.app.Customer">
+		<property name="name" value="TestName"/>
+	</bean>
+	
+	<bean id="account" class="com.cg.app.Account" >
+		<property name="accountNo" value="12356789"/>
+		<property name="accountType" value="Savings"/>
+	</bean>
+	
+</beans>

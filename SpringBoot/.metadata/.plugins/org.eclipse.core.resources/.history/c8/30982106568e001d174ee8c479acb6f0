@@ -1,0 +1,12 @@
+package com.cg.entity;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class Product {
+	private int productId;
+	private String productName;
+	private double price;
+	
+	
+}

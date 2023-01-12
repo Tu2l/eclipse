@@ -1,0 +1,11 @@
+package com.cg.entity;
+
+public class Account {
+	
+	private long id;
+	private String accType;
+	private double accBalance;
+	
+	
+	
+}

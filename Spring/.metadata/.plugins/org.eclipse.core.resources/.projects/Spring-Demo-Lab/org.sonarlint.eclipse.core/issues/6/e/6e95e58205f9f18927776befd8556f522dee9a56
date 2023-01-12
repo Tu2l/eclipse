@@ -1,0 +1,7 @@
+
+¼
+java:S1186	"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‚Äœäúÿÿÿÿ8«“òŒØ0H‘RCRITICALZ
+CODE_SMELL
+—
+java:S4144,"_Update this method so that its implementation is not identical to "getBusinessUnit" on line 36.(ôÇõÒøÿÿÿÿ8 ¬øŒØ0HRMAJORZ
+CODE_SMELL

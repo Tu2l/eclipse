@@ -1,0 +1,9 @@
+package com.cg.app;
+
+public class Address {
+	private String city;
+	private String State;
+	private int pin;
+	
+	
+}

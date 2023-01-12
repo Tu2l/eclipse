@@ -1,0 +1,35 @@
+package com.cg.app;
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Persistence;
+
+import com.cg.entity.Account;
+import com.cg.entity.Citizen;
+import com.cg.entity.Employee;
+import com.cg.entity.Passport;
+
+/**
+ * Hello world!
+ *
+ */
+public class App2 {
+	public static void main(String[] args) {
+		EntityManagerFactory emf = Persistence.createEntityManagerFactory("JPA-PU");
+		EntityManager em = emf.createEntityManager();
+		
+		em.getTransaction().begin();
+		
+		Citizen citizen = new Citizen();
+		Passport passport = new Passport();
+		passport.setpNo("WB1234");
+		passport.setpType("International");
+		passport.setCitizen(citizen);
+		
+		em.getTransaction().commit();
+		
+		System.out.print("Added");
+	
+	}
+
+}

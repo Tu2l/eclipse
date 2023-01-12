@@ -1,0 +1,18 @@
+package com.cg.springmain;
+
+import org.springframework.beans.factory.xml.XmlBeanFactory;
+import org.springframework.context.ApplicationContext;
+import org.springframework.core.io.ClassPathResource;
+
+import com.cg.main.Airtel;
+import com.cg.main.Sim;
+
+public class MobileApp {
+	public static void main(String[] args) {
+//		Sim s1 = new Airtel();
+//		s1.calling();
+		
+		//IoC container by using XML Configuration file
+		ApplicationContext appContext = new XmlBeanFactory(ClassPathResource("spring.xml"));
+	}
+}

@@ -1,0 +1,18 @@
+package com.cg;
+
+import com.cg.entity.Student;
+
+/**
+ * Hello world!
+ *
+ */
+public class App {
+	public static void main(String[] args) {
+		System.out.println("Hello World!");
+		
+		Student student = new Student("Student1",100);
+		
+	}
+	
+	
+}

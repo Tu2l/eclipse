@@ -1,0 +1,14 @@
+
+c	java:S106"9Replace this use of System.out or System.err by a logger.(”øÖkH»RMAJORZ
+CODE_SMELL
+k	java:S106""9Replace this use of System.out or System.err by a logger.(ú”ëÆ8§•Ì·×0H¼RMAJORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(¡ŸÓ8‚æô¶×0H½RMAJORZ
+CODE_SMELL
+p	java:S106,"9Replace this use of System.out or System.err by a logger.(äÍ·Ìşÿÿÿÿ8„“Â·×0H¾RMAJORZ
+CODE_SMELL
+†
+java:S1192"KDefine a constant instead of duplicating this literal "9854851059" 4 times.(•ôùôÿÿÿÿÿ8ÖŸ‰àØ0H¿RCRITICALZ
+CODE_SMELL
+k	java:S1062"9Replace this use of System.out or System.err by a logger.(äÜõ›8Ø™Î·×0HÄRMAJORZ
+CODE_SMELL

@@ -1,0 +1,41 @@
+package com.cg.dao;
+
+import javax.persistence.EntityManager;
+
+import com.cg.entity.Employee;
+
+public class EmployeeDAOImpl implements EmployeeDAO {
+	private EntityManager em = null;
+	
+	EmployeeDAOImpl(){
+		em = JPAUtil.getEM();
+	}
+
+	@Override
+	public Employee add(Employee emp) {
+		em.getTransaction().begin();
+		em.persist(emp);
+		em.getTransaction().commit();
+		em.close();
+		return emp;
+	}
+
+	@Override
+	public Employee delete(Employee emp) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Employee find(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Employee update(Employee emp) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

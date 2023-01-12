@@ -1,0 +1,42 @@
+package com.cg.service;
+
+import java.util.List;
+
+import com.cg.dao.EmployeeDAOImpl;
+import com.cg.entity.Employee;
+
+public class EmployeeServiceImpl implements EmployeeService{
+	
+	private EmployeeDAOImpl repository;
+	
+	@Override
+	public void insert(Employee emp) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void update(Employee emp) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public Employee remove(Employee emp) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Employee find(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Employee> findAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

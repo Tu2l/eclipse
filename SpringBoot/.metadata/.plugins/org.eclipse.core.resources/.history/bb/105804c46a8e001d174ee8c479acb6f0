@@ -1,0 +1,11 @@
+package com.cg.service;
+
+import java.util.List;
+
+import com.cg.entity.Course;
+
+public interface CourseService {
+	void addCourse(Course course);
+
+	List<Course> getAllCourses();
+}

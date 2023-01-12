@@ -1,0 +1,13 @@
+package com.cg.service;
+
+import java.util.List;
+
+import com.cg.entity.Student;
+
+public interface StudentService {
+	Student createStudent(Student student);
+	
+	public List<Student> findAllStudents();
+	
+	public Student findStudentById(int id)throws NoSuchStudentFoundException;
+}

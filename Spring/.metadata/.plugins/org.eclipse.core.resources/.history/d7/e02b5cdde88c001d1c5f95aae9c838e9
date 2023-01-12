@@ -1,0 +1,47 @@
+package com.cg.app;
+
+public class SBU {
+	private int id;
+	private String name;
+	private String head;
+
+	public SBU() {
+	}
+
+	public SBU(String city, String state, int pin) {
+		super();
+		this.name = city;
+		head = state;
+		this.id = pin;
+	}
+
+	public String getCity() {
+		return name;
+	}
+
+	public void setCity(String city) {
+		this.name = city;
+	}
+
+	public String getState() {
+		return head;
+	}
+
+	public void setState(String state) {
+		head = state;
+	}
+
+	public int getPin() {
+		return id;
+	}
+
+	public void setPin(int pin) {
+		this.id = pin;
+	}
+
+	@Override
+	public String toString() {
+		return "Address [city=" + name + ", State=" + head + ", pin=" + id + "]";
+	}
+
+}

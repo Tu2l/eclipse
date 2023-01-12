@@ -1,0 +1,41 @@
+package com.cg.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.cg.dao.EmployeeDAO;
+import com.cg.entity.Employee;
+
+@Service
+public class EmployeeServiceImpl implements EmployeeService{
+	
+	@Autowired
+	private EmployeeDAO repository;
+	
+	@Override
+	public void insert(Employee emp) {
+		repository.insert(emp);
+	}
+
+	@Override
+	public void update(Employee emp) {
+		repository.update(emp);
+	}
+
+	@Override
+	public Employee remove(Employee emp) {
+		return repository.remove(emp);
+	}
+
+	@Override
+	public Employee find(int id) {
+		return repository.find(id);
+	}
+
+	@Override
+	public List<Employee> findAll() {
+		return repository.findAll();
+	}
+}

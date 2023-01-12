@@ -1,0 +1,51 @@
+package com.cg.service;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.cg.entity.Course;
+
+@Service
+public class CourseServiceImpl implements CourseService {
+	private List<Course> courseList;
+
+	public CourseServiceImpl() {
+		courseList = new ArrayList<>();
+	}
+
+	@Override
+	public void addCourse() {
+		courseList.add(course);
+	}
+
+	@Override
+	public List<Course> getAllCourses() {
+		return courseList;
+	}
+
+	@Override
+	public Course findById(int id) {
+		Course course = null;
+		for (Course c : courseList)
+			if (c.getCourseId() == id)
+				course = c;
+
+		return course;
+	}
+
+	@Override
+	public Course deleteById(int id) {
+		Course course = null;
+		for (int i = 0; i < courseList.size(); i++) {
+			if (courseList.get(i).getCourseId() == id) {
+				course = courseList.remove(i);
+				break;
+			}
+		}
+
+		return course;
+	}
+
+}

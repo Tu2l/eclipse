@@ -1,0 +1,6 @@
+package com.cg.app;
+
+public class Customer {
+	private String name;
+	private Account bankAccount;
+}

@@ -1,0 +1,6 @@
+package com.cg.entity;
+
+public class Book {
+	private Author auhtor;
+	private String isbn;
+}

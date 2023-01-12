@@ -1,0 +1,7 @@
+package com.cg;
+
+public class Student {
+	private int roll;
+	private String name;
+	private String course;
+}
