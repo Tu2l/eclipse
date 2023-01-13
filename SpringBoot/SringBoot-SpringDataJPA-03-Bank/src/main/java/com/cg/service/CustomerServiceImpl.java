@@ -48,6 +48,7 @@ public class CustomerServiceImpl implements CustomerService{
 	}
 
 	@Override
+	@Transactional
 	public Customer updateCustomer(Customer customer, int id) throws NoSuchCustomerFoundException {
 		Customer find = findCustomerById(id);
 		Account acc = find.getBankAccount();
@@ -59,6 +60,7 @@ public class CustomerServiceImpl implements CustomerService{
 	}
 
 	@Override
+	@Transactional
 	public boolean removeCustomer(int id){
 		customerRepo.deleteById(id);
 		Optional<Customer> cust = customerRepo.findById(id);

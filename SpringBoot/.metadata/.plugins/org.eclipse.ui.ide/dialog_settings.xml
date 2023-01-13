@@ -21,6 +21,7 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\tutroy\Documents\workspaces\eclipse\SpringBoot\SringBoot-SpringDataJPA-03-Bank"/>
 			<item value="C:\Users\tutroy\Documents\SpringBoot\SringBoot-SpringDataJPA-03-Bank"/>
 		</list>
 	</section>
