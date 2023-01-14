@@ -1,7 +1,0 @@
-package com.cg.entity;
-
-public class Customer {
-	private long id;
-	private String name;
-	private Account account;
-}
