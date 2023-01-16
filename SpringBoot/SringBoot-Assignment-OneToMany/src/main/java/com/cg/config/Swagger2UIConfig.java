@@ -36,10 +36,9 @@ public class Swagger2UIConfig implements WebMvcConfigurer{
 	}
 	
 	
-	  @Bean
-	  public InternalResourceViewResolver defaultViewResolver() {
-	    return new InternalResourceViewResolver();
-	  }
-	
+	@Bean
+	public InternalResourceViewResolver defaultViewResolver() {
+		return new InternalResourceViewResolver();
+	}
 	
 }
