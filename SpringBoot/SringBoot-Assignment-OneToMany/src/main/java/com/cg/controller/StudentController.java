@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.cg.entity.Student;
@@ -18,6 +19,7 @@ import com.cg.exception.NoSuchStudentFoundException;
 import com.cg.service.StudentService;
 
 @RestController
+@RequestMapping("/student")
 public class StudentController {
 	@Autowired
 	private StudentService service;
@@ -73,7 +75,7 @@ public class StudentController {
 	@PostMapping("/add")
 	public ResponseEntity<Student> add(@RequestBody Student student) {
 		try {
-			return ResponseEntity.accepted().body(service.createStudent(student));
+			return new ResponseEntity<>(service.createStudent(student), HttpStatus.CREATED);
 		} catch (Exception ex) {
 			return ResponseEntity.internalServerError().build();
 		}
@@ -91,7 +93,7 @@ public class StudentController {
 	}
 
 	@DeleteMapping("/delete/{id}")
-	public ResponseEntity delete(@PathVariable int id) {
+	public ResponseEntity<String> delete(@PathVariable int id) {
 		try {
 			return new ResponseEntity(service.deleteStudent(id)? HttpStatus.ACCEPTED:HttpStatus.NOT_MODIFIED);
 		}  catch (Exception ex) {

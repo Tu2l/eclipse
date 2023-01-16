@@ -22,7 +22,6 @@ import lombok.ToString;
 @ToString
 public class Course {
 	@Id
-	@GeneratedValue(strategy = GenerationType.SEQUENCE)
 	@Setter
 	@Getter
 	private int courseId;

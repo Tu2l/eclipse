@@ -39,7 +39,7 @@ public class Student {
 	@Setter
 	@Getter
 	private String name;
-	@OneToMany(cascade = CascadeType.ALL, orphanRemoval = true)
+	@OneToMany
 	@Setter
 	@Getter
 	private List<Course> courses = new ArrayList<>();
