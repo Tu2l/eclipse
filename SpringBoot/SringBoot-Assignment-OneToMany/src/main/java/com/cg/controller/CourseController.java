@@ -19,7 +19,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.cg.dto.CourseDTO;
-import com.cg.dto.StudentDTO;
 import com.cg.entity.Course;
 import com.cg.exception.NoSuchCourseFoundException;
 import com.cg.service.CourseService;
