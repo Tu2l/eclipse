@@ -16,6 +16,7 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 import com.cg.exception.ErrorResponse;
 import com.cg.exception.NoSuchCourseFoundException;
 import com.cg.exception.NoSuchStudentFoundException;
+import com.cg.exception.NoSuchTrainerFoundException;
 
 @ControllerAdvice
 @RequestMapping("/")
@@ -23,7 +24,7 @@ public class GloblaExceptionHandler {
 
 	@ResponseStatus(value = HttpStatus.NOT_FOUND)
 	@ResponseBody
-	@ExceptionHandler(value = { NoSuchCourseFoundException.class, NoSuchStudentFoundException.class })
+	@ExceptionHandler(value = { NoSuchCourseFoundException.class, NoSuchStudentFoundException.class ,NoSuchTrainerFoundException.class})
 	public ErrorResponse handleNotFound(Exception ex, HttpServletRequest req) {
 		return new ErrorResponse(ex.getMessage(), req.getRequestURI(), LocalDateTime.now().toString());
 	}

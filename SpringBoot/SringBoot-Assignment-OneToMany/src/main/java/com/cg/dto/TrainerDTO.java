@@ -4,9 +4,11 @@ import java.time.LocalDate;
 
 import javax.persistence.Column;
 import javax.validation.constraints.Email;
+import javax.validation.constraints.Min;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Past;
+import javax.validation.constraints.Size;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -26,7 +28,7 @@ public class TrainerDTO {
 	// @Max annotation is used to limit the value of a field.
 	// In the below code, the tName field can have the maximum value of 5.
 	@NotNull
-	// @Min(value = 2, message = "First Name should have atleast 3 characters")
+	@Size(min = 2, message = "First Name should have atleast 3 characters")
 	private String firstName;
 
 	@NotNull(message = "Last Name is required")
@@ -47,10 +49,11 @@ public class TrainerDTO {
 	 */
 
 	@NotNull
-	@Column(precision = 3)
+	//@Column(precision = 3)
+	@Size(min = 3, message = "Company Name should have atleast 3 characters")
 	private String compName;
 
-	@NotNull
+	@NotNull(message="subject must not be null")
 	private String subject;
 
 }
