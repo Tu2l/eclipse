@@ -2,6 +2,10 @@ package com.cg.controller;
 
 import java.util.List;
 
+import javax.validation.Valid;
+
+import org.modelmapper.ModelMapper;
+import org.modelmapper.TypeToken;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -14,6 +18,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.cg.dto.StudentDTO;
 import com.cg.entity.Student;
 import com.cg.exception.NoSuchStudentFoundException;
 import com.cg.service.StudentService;
@@ -24,80 +29,61 @@ public class StudentController {
 	@Autowired
 	private StudentService service;
 
+	@Autowired
+	private ModelMapper modelMapper;
+
 	@GetMapping("/get/all")
-	public ResponseEntity<List<Student>> getAll() {
-		try {
-			return ResponseEntity.ok(service.findAllStundent());
-		} catch (Exception ex) {
-			return ResponseEntity.internalServerError().build();
-		}
+	public ResponseEntity<List<StudentDTO>> getAll() {
+		List<StudentDTO> students = modelMapper.map(service.findAllStundent(), new TypeToken<List<StudentDTO>>() {
+		}.getType());
+		return ResponseEntity.ok(students);
 	}
 
 	@GetMapping("/get/byid/{id}")
-	public ResponseEntity<Student> getById(@PathVariable int id) {
-		try {
-			return ResponseEntity.ok(service.findStudentById(id));
-		} catch (NoSuchStudentFoundException ex) {
-			return ResponseEntity.notFound().build();
-		} catch (Exception ex) {
-			return ResponseEntity.internalServerError().build();
-		}
+	public ResponseEntity<StudentDTO> getById(@PathVariable int id) throws NoSuchStudentFoundException {
+		return ResponseEntity.ok(modelMapper.map(service.findStudentById(id), StudentDTO.class));
+
 	}
 
 	@GetMapping("/get/byroll/{roll}")
-	public ResponseEntity<Student> getByRoll(@PathVariable int roll) {
-		try {
-			return ResponseEntity.ok(service.findByRoll(roll));
-		} catch (Exception ex) {
-			return ResponseEntity.internalServerError().build();
-		}
+	public ResponseEntity<StudentDTO> getByRoll(@PathVariable int roll) {
+		return ResponseEntity.ok(modelMapper.map(service.findByRoll(roll), StudentDTO.class));
 	}
 
 	@GetMapping("/get/byname/{sname}")
-	public ResponseEntity<List<Student>> getByName(@PathVariable String sname) {
-		try {
-			return ResponseEntity.ok(service.findStudentsByName(sname));
-		} catch (Exception ex) {
-			ex.printStackTrace();
-			return ResponseEntity.internalServerError().build();
-		}
+	public ResponseEntity<List<StudentDTO>> getByName(@PathVariable String sname) {
+		List<StudentDTO> students = modelMapper.map(service.findStudentsByName(sname),
+				new TypeToken<List<StudentDTO>>() {
+				}.getType());
+		return ResponseEntity.ok(students);
 	}
 
 	@GetMapping("/get/bycoursename/{cname}")
-	public ResponseEntity<List<Student>> getByCourseName(@PathVariable String cname) {
-		try {
-			return ResponseEntity.ok(service.findStundetsByCourseName(cname));
-		} catch (Exception ex) {
-			return ResponseEntity.internalServerError().build();
-		}
+	public ResponseEntity<List<StudentDTO>> getByCourseName(@PathVariable String cname) {
+		List<StudentDTO> students = modelMapper.map(service.findStundetsByCourseName(cname),
+				new TypeToken<List<StudentDTO>>() {
+				}.getType());
+		return ResponseEntity.ok(students);
 	}
 
 	@PostMapping("/add")
-	public ResponseEntity<Student> add(@RequestBody Student student) {
-		try {
-			return new ResponseEntity<>(service.createStudent(student), HttpStatus.CREATED);
-		} catch (Exception ex) {
-			return ResponseEntity.internalServerError().build();
-		}
+	public ResponseEntity<StudentDTO> add(@Valid @RequestBody StudentDTO studentDto) {
+		Student student = modelMapper.map(studentDto, Student.class);
+		studentDto = modelMapper.map(service.createStudent(student), StudentDTO.class);
+		return new ResponseEntity<>(studentDto, HttpStatus.CREATED);
 	}
 
 	@PutMapping("/update/{id}")
-	public ResponseEntity<Student> update(@RequestBody Student student, @PathVariable int id) {
-		try {
-			return ResponseEntity.accepted().body(service.updateStudent(id, student));
-		} catch (NoSuchStudentFoundException ex) {
-			return ResponseEntity.notFound().build();
-		} catch (Exception ex) {
-			return ResponseEntity.internalServerError().build();
-		}
+	public ResponseEntity<StudentDTO> update(@Valid @RequestBody StudentDTO studentDto, @PathVariable int id)
+			throws NoSuchStudentFoundException {
+		Student student = modelMapper.map(studentDto, Student.class);
+		studentDto = modelMapper.map(service.updateStudent(id, student), StudentDTO.class);
+		return ResponseEntity.accepted().body(studentDto);
+
 	}
 
 	@DeleteMapping("/delete/{id}")
 	public ResponseEntity<String> delete(@PathVariable int id) {
-		try {
-			return new ResponseEntity(service.deleteStudent(id)? HttpStatus.ACCEPTED:HttpStatus.NOT_MODIFIED);
-		}  catch (Exception ex) {
-			return ResponseEntity.internalServerError().build();
-		}
+		return new ResponseEntity<>(service.deleteStudent(id) ? HttpStatus.ACCEPTED : HttpStatus.NOT_MODIFIED);
 	}
 }

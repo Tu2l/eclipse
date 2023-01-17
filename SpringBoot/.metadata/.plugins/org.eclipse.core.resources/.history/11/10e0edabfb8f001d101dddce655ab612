@@ -1,9 +1,0 @@
-package com.cg.dao;
-
-import org.springframework.data.jpa.repository.JpaRepository;
-
-import com.cg.entity.Student;
-
-public interface StudenRepository extends JpaRepository<Student, Integer>{
-
-}

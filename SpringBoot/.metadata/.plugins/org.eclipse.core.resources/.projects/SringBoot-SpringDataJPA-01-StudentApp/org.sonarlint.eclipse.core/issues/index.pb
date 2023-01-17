@@ -15,3 +15,7 @@ j
 :src/main/java/com/cg/controller/StudentRestController.java,5\7\5790fc010fc66e301e33d6aa0b34713ea048342a
 X
 (src/main/java/com/cg/entity/Student.java,1\e\1e03a0e2a76bd8f91c8b13decb6936bbb2be4067
+7
+pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+a
+1src/main/java/com/cg/config/Swagger2UIConfig.java,7\f\7f131271a29bae6ab71f486d3edf09df6b6c4246

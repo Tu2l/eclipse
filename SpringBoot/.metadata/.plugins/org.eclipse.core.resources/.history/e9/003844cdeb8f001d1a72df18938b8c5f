@@ -1,9 +1,0 @@
-server.servlet.context-path=/StudentApp
-spring.datasource.url==postgresql://localhost:5432/jpa
-spring.datasource.username=postgres
-spring.datasource.password=root
-
-spring.datasource.driver-class-name=org.postgresql.Driver
-spring.jpa.hibernate.ddl-auto=create
-spring.jpa.generate-ddl=true
-spring.jpa.show-sql=true

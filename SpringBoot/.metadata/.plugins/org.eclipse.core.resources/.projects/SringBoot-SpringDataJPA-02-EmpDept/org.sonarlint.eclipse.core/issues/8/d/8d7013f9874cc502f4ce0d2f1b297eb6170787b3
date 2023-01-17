@@ -1,13 +1,13 @@
 
-n	java:S125:"<This block of commented-out lines of code should be removed.(¯×çñ8±£àÚÙ0HÊRMAJORZ
+x
+java:S4684D"@Replace this persistent entity with a simple POJO or DTO object.(£µß8Ù­„ÚÙ0H¤RCRITICALZVULNERABILITY
+n	java:S125:"<This block of commented-out lines of code should be removed.(¯×çñ8±£àÚÙ0H¥RMAJORZ
 CODE_SMELL
 g
-java:S3740("/Provide the parametrized type for this generic.(¨í×²ûÿÿÿÿ8Ù­„ÚÙ0HÇRMAJORZ
+java:S3740H"/Provide the parametrized type for this generic.(¨í×²ûÿÿÿÿ8ÊŠ’ÚÙ0H¦RMAJORZ
+CODE_SMELL
+g
+java:S3740("/Provide the parametrized type for this generic.(¨í×²ûÿÿÿÿ8Ù­„ÚÙ0H§RMAJORZ
 CODE_SMELL
 ~
-java:S46849"@Replace this persistent entity with a simple POJO or DTO object.(­ğ©ÿúÿÿÿÿ8Ù­„ÚÙ0HÆRCRITICALZVULNERABILITY
-g
-java:S3740H"/Provide the parametrized type for this generic.(¨í×²ûÿÿÿÿ8ÊŠ’ÚÙ0HÉRMAJORZ
-CODE_SMELL
-x
-java:S4684D"@Replace this persistent entity with a simple POJO or DTO object.(£µß8Ù­„ÚÙ0HÈRCRITICALZVULNERABILITY
+java:S46849"@Replace this persistent entity with a simple POJO or DTO object.(­ğ©ÿúÿÿÿÿ8Ù­„ÚÙ0H¨RCRITICALZVULNERABILITY

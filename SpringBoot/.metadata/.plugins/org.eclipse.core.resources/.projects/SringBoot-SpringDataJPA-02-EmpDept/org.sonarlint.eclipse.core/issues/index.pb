@@ -25,3 +25,7 @@ g
 7src/main/java/com/cg/controller/EmployeeController.java,8\d\8d7013f9874cc502f4ce0d2f1b297eb6170787b3
 Y
 )src/main/java/com/cg/entity/Employee.java,6\f\6f24a25a98df311bbe0ff6b208261fd8b38a728b
+7
+pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+a
+1src/main/java/com/cg/config/Swagger2UIConfig.java,7\f\7f131271a29bae6ab71f486d3edf09df6b6c4246
